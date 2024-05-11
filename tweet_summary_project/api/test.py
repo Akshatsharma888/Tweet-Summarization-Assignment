@@ -9,13 +9,13 @@ import tweepy.errors
 app = Flask(__name__)
 
 # OpenAI API key
-client = OpenAI(api_key="sk-proj-1N9lBvFhAPoe3uvW9NHnT3BlbkFJov9UFFm0rbHtxgLVah7W")
+client = OpenAI(api_key="sk-proj-1N9lBvFh")
 
 # Twitter API credentials
-consumer_key = "y30iT7FKbK7qOPBq2Uaaj2NLL"
-consumer_secret = "KHWOWgYYS43kI7vsTkMuf5N1XO1B8jZc5vBTn8UY9FY8opkqVl "
-access_token = "1787384338562039808-1l9A2LIYL5VLPWggPjfoMuoS47rNWb"
-access_token_secret = "SBUgRhxFrkAoTmpBKQpOHpR7YaTlURvQJ3DIF3DqkkarX"
+consumer_key = "y30iT7FKbK7qO"
+consumer_secret = "KHWOWgYYS43kIBTn8UY9FY8opkqVl "
+access_token = "1787384338562039808-1lgPjfoMuoS47rNWb"
+access_token_secret = "SBUgRhxFrkAoTmpURvQJ3DIF3DqkkarX"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
