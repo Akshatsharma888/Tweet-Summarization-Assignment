@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Tweet</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Tweet Summarizer</h1>
+        <form action="/upload-tweet" method="post" class="mt-5">
+            <div class="form-group">
+                <label for="tweet">Paste your tweet here:</label>
+                <textarea id="tweet" name="tweet" rows="4" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div id="summary" class="mt-5">
+            <!-- The summarized tweet
